@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+     <h2> Calculadora de Resistência</h2>
+     <form>
+     	<label for="f1"> Faixa 01 </label>
+     	<p>
+     	<select id="f1">
+     		<option value="0"> Preto </option>
+     		<option value="1"> Marrom </option>
+     		<option value="2"> Vermelho </option>
+     		<option value="3"> Laranja </option>
+     		<option value="4"> Amarelo </option>
+     	</select>
+     </p>
+     <label for="f2"> Faixa 02 </label>
+     	<p>
+     	<select id="f2">
+     		<option value="0"> Preto </option>
+     		<option value="1"> Marrom </option>
+     		<option value="2"> Vermelho </option>
+     		<option value="3"> Laranja </option>
+     		<option value="4"> Amarelo </option>
+     	</select>
+     </p>
+
+     <label for="f1"> Faixa 01 </label>
+     	<p>
+     	<select id="f3">
+     		<option value="0"> Preto </option>
+     		<option value="1"> Marrom </option>
+     		<option value="2"> Vermelho </option>
+     		<option value="3"> Laranja </option>
+     		<option value="4"> Amarelo </option>
+     	</select>
+     </p>
+
+     <label for="mult">Multiplicador</label>
+     	<p>
+     	<select id="mult" onchange="calResistencia()">
+     		<option value="0"> Preto </option>
+     		<option value="1"> Marrom </option>
+     		<option value="2"> Vermelho </option>
+     		<option value="3"> Laranja </option>
+     		<option value="4"> Amarelo </option>
+     	</select>
+     </p>
+     <label for="result">Resultado</label>
+     <input type="text" name="result" id="result" readonly>
+     </form>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
